@@ -3,7 +3,6 @@
 
 
 
-
 body {
   font-style: normal;
   line-height: 1.5;
@@ -20,7 +19,7 @@ body {
   line-height: 1.6;
 }
 .display-1 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'MYRIADPRO-REGULAR';
   font-size: 4.25rem;
 }
 .display-1 > .mbr-iconfont {
@@ -1599,6 +1598,10 @@ body {
 .cid-r5sXTHHoP7 .collapsed .navbar-collapse.show .navbar-nav .nav-item {
   clear: both;
 }
+.cid-r5sXTHHoP7 .collapsed .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+.cid-r5sXTHHoP7 .collapsed .navbar-collapse.show .navbar-nav .nav-item:last-child {
+  margin-bottom: 1rem;
+}
 .cid-r5sXTHHoP7 .collapsed .navbar-collapse.collapsing .navbar-buttons,
 .cid-r5sXTHHoP7 .collapsed .navbar-collapse.show .navbar-buttons {
   text-align: center;
@@ -1693,6 +1696,10 @@ body {
   .cid-r5sXTHHoP7 .navbar-collapse.show .navbar-nav .nav-item {
     clear: both;
   }
+  .cid-r5sXTHHoP7 .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+  .cid-r5sXTHHoP7 .navbar-collapse.show .navbar-nav .nav-item:last-child {
+    margin-bottom: 1rem;
+  }
   .cid-r5sXTHHoP7 .navbar-collapse.collapsing .navbar-buttons,
   .cid-r5sXTHHoP7 .navbar-collapse.show .navbar-buttons {
     text-align: center;
@@ -1754,15 +1761,18 @@ body {
   color: #767676 !important;
 }
 .cid-r5teve4CHq {
-  padding-top: 60px;
+  padding-top: 90px;
   padding-bottom: 15px;
   background-image: url("../../../assets/images/peruvian-money-called-f62a73c516dd9bcb-700x394.jpg");
 }
 .cid-r5teve4CHq H2 {
-  color: #232323;
+  color: #ffffff;
 }
 .cid-r5teve4CHq .mbr-section-subtitle {
-  color: #232323;
+  color: #e25b44;
+}
+.cid-r5teve4CHq .mbr-section-subtitle B {
+  color: #e25b44;
 }
 .cid-r5tdEA8uoV {
   padding-top: 30px;
@@ -1803,7 +1813,7 @@ body {
 .cid-r5tbYitFmO {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #f3f4f6;
+  background-color: #efefef;
 }
 .cid-r5tbYitFmO .testimonial-text {
   font-style: italic;
@@ -1820,8 +1830,8 @@ body {
 }
 .cid-r5t72CD4RW {
   padding-top: 0px;
-  padding-bottom: 90px;
-  background-color: #f9f9f9;
+  padding-bottom: 45px;
+  background-color: #efefef;
 }
 .cid-r5t72CD4RW .mbr-section-subtitle {
   color: #767676;
@@ -1861,9 +1871,6 @@ body {
 .cid-r5t72CD4RW table td {
   border-top: 1px solid #cccccc;
 }
-.cid-r5t72CD4RW table.table {
-  background: #ffffff;
-}
 .cid-r5t72CD4RW .dataTables_filter {
   text-align: right;
   margin-bottom: .5rem;
@@ -1900,4 +1907,93 @@ body {
 }
 .cid-r5t72CD4RW .mbr-section-subtitle DIV {
   text-align: left;
+}
+.cid-r5tkXtVRGn {
+  padding-top: 0px;
+  padding-bottom: 90px;
+  background-color: #efefef;
+}
+.cid-r5tkXtVRGn .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-r5tkXtVRGn .container-table {
+  margin: 0 auto;
+}
+.cid-r5tkXtVRGn .scroll {
+  overflow-x: auto;
+  padding: 0;
+}
+.cid-r5tkXtVRGn .dataTables_wrapper {
+  display: block;
+}
+.cid-r5tkXtVRGn .dataTables_wrapper .search {
+  margin-bottom: .5rem;
+}
+.cid-r5tkXtVRGn .dataTables_wrapper .table {
+  overflow-x: auto;
+}
+.cid-r5tkXtVRGn table {
+  width: 100% !important;
+  margin-top: 6px;
+  border: 1px solid #cccccc;
+  margin-bottom: 0;
+}
+.cid-r5tkXtVRGn table th {
+  border-top: none;
+  transition: all .2s;
+  border-bottom: none;
+}
+.cid-r5tkXtVRGn table th:hover {
+  background: #cccccc;
+  color: #000000;
+}
+.cid-r5tkXtVRGn table td {
+  border-top: 1px solid #cccccc;
+}
+.cid-r5tkXtVRGn table.table {
+  background: #ffffff;
+}
+.cid-r5tkXtVRGn .dataTables_filter {
+  text-align: right;
+  margin-bottom: .5rem;
+}
+.cid-r5tkXtVRGn .dataTables_filter label {
+  display: inline;
+  white-space: normal !important;
+}
+.cid-r5tkXtVRGn .dataTables_filter input {
+  display: inline;
+  width: auto;
+  margin-left: .5rem;
+  border-radius: 100px;
+  padding-left: 1rem;
+}
+.cid-r5tkXtVRGn .dataTables_info {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  white-space: normal !important;
+}
+@media (max-width: 992px) {
+  .cid-r5tkXtVRGn .dataTables_filter {
+    text-align: center;
+  }
+}
+@media (max-width: 350px) {
+  .cid-r5tkXtVRGn .dataTables_filter {
+    text-align: center;
+  }
+  .cid-r5tkXtVRGn .dataTables_filter input {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+}
+.cid-r5tkXtVRGn .body-item {
+  text-align: center;
+}
+.cid-r5tkXtVRGn .head-item {
+  color: #232323;
+  text-align: center;
+}
+.cid-r5tkXtVRGn .body-item B {
+  color: #e25b44;
 }
