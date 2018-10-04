@@ -19,10 +19,10 @@ body {
 }
 .display-1 {
   font-family: 'MYRIADPRO-REGULAR';
-  font-size: 4.25rem;
+  font-size: 4.6rem;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 6.8rem;
+  font-size: 7.36rem;
 }
 .display-2 {
   font-family: 'Rubik', sans-serif;
@@ -59,9 +59,9 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3.4rem;
-    font-size: calc( 2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 3.68rem;
+    font-size: calc( 2.26rem + (4.6 - 2.26) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (2.26rem + (4.6 - 2.26) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 2.4rem;
@@ -1759,23 +1759,14 @@ body {
 .cid-r5sXTHHoP7 .dropdown-item:hover {
   color: #767676 !important;
 }
-.cid-r5teve4CHq {
-  padding-top: 90px;
-  padding-bottom: 60px;
+.cid-r5wacuC61Y {
+  padding-top: 135px;
+  padding-bottom: 135px;
   background-image: url("../../../assets/images/peruvian-money-called-f62a73c516dd9bcb-700x394.jpg");
 }
-.cid-r5teve4CHq H2 {
-  color: #ffffff;
-}
-.cid-r5teve4CHq .mbr-section-subtitle {
-  color: #e25b44;
-}
-.cid-r5teve4CHq .mbr-section-subtitle B {
-  color: #e25b44;
-}
 .cid-r5w3Mm6V7p {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 75px;
+  padding-bottom: 45px;
   background-color: #e25b44;
 }
 .cid-r5w3Mm6V7p .line {
@@ -1799,8 +1790,8 @@ body {
   }
 }
 .cid-r5w4ZHja5P {
-  padding-top: 0px;
-  padding-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 60px;
   background-color: #e25b44;
 }
 .cid-r5w4ZHja5P .mbr-section-subtitle {
@@ -1883,7 +1874,7 @@ body {
 }
 .cid-r5w4ZHja5P .head-item {
   color: #232323;
-  text-align: center;
+  text-align: right;
 }
 .cid-r5w4ZHja5P .body-item B {
   color: #e25b44;
@@ -3420,29 +3411,4 @@ body {
 }
 .cid-r5vZbypiuM .mbr-section-subtitle DIV {
   text-align: left;
-}
-.cid-r5w8YlUQYT {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #ffffff;
-}
-.cid-r5w8YlUQYT .line {
-  background-color: #e25b44;
-  color: #e25b44;
-  align: center;
-  height: 2px;
-  margin: 0 auto;
-}
-.cid-r5w8YlUQYT .section-text {
-  padding: 2rem 0;
-  color: #e25b44;
-  text-align: left;
-}
-.cid-r5w8YlUQYT .inner-container {
-  margin: 0 auto;
-}
-@media (max-width: 768px) {
-  .cid-r5w8YlUQYT .inner-container {
-    width: 100% !important;
-  }
 }
