@@ -620,7 +620,8 @@
               }
             },
             ".body-item": {
-              "text-align": "center"
+              "text-align": "center",
+              "color": "#232323"
             },
             ".head-item": {
               "color": "#232323",
