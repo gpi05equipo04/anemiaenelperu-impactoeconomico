@@ -2,7 +2,6 @@
 
 
 
-
 body {
   font-style: normal;
   line-height: 1.5;
@@ -40,7 +39,7 @@ body {
   font-size: 1.28rem;
 }
 .display-5 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'MYRIADPRO-REGULAR';
   font-size: 1.5rem;
 }
 .display-5 > .mbr-iconfont {
@@ -2306,7 +2305,7 @@ body {
 }
 .cid-r5vzwu4CIU {
   padding-top: 0px;
-  padding-bottom: 45px;
+  padding-bottom: 60px;
   background-color: #efefef;
 }
 .cid-r5vzwu4CIU .mbr-section-subtitle {
@@ -2385,7 +2384,7 @@ body {
   text-align: left;
 }
 .cid-r5vFNPjgAD {
-  padding-top: 30px;
+  padding-top: 0px;
   padding-bottom: 0px;
   background-color: #efefef;
 }
