@@ -47,7 +47,7 @@
         "file": "@PROJECT_PATH@/fonts/MYRIADPRO-REGULAR/font.TTF"
       }
     ],
-    "uniqCompNum": 10,
+    "uniqCompNum": 11,
     "versionPublish": "4.8.2",
     "screenshot": "screenshot.png"
   },
@@ -537,160 +537,6 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section-subtitle": {
-              "color": "#232323"
-            },
-            "H2": {
-              "text-align": "center"
-            }
-          },
-          "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    Costo por pérdida cognitiva</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\">Es la pérdida en el PBI por la pérdida de producción actual de los adultos que padecieron anemia cuando niños<br></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "r5tcHOtSxk",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "content4-6"
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".testimonial-text": {
-              "font-style": "italic",
-              "color": "#676767",
-              "font-weight": "300",
-              "text-align": "left"
-            },
-            ".mbr-author-name": {
-              "font-weight": "bold",
-              "color": "#232"
-            },
-            ".mbr-author-desc": {
-              "color": "#232"
-            }
-          },
-          "_name": "testimonials3",
-          "_customHTML": "<section class=\"testimonials3\" group=\"Testimonials\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"185\">\n\n      <fieldset type=\"background\" name=\"bg\" parallax>\n        <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\">\n        <input type=\"color\" title=\"Background Color\" value=\"#efefef\" selected>\n        <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n      </fieldset>\n      <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n      <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n      <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\"> \n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"media-content px-3 align-self-center mbr-white py-2\">\n                <p class=\"mbr-text testimonial-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".testimonial-text\"><span style=\"font-style: normal;\">•</span> Efecto sobre el salario:<span style=\"font-style: normal;\"> efecto de la deficiencia de hierro sobre el salario, del cual Ross y Horton (1998) indican que reduce en un 4% el rendimiento salarial.\n</span><br><span style=\"font-style: normal;\"><br>• </span>Ingresocap:<span style=\"font-style: normal;\"> es la suma de salarios de la economía dividida entre la población total\n</span><br><span style=\"font-style: normal;\"><br>• </span>Prob (niño): <span style=\"font-style: normal;\">prevalencia de anemia en niños menores de 5 años</span><br></p>\n                <p class=\"mbr-author-name pt-4 mb-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-name\"></p>\n                <p class=\"mbr-author-desc mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-author-desc\"></p>\n            </div>\n\n            <div class=\"mbr-figure pl-lg-5\" mbr-style=\"{'width':mediaSize + '%'}\">\n              <img src=\"../_images/face5.jpg\">\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "r5tbYitFmO",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "testimonials3-5"
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#767676",
-              "text-align": "left"
-            },
-            ".container-table": {
-              "margin": "0 auto"
-            },
-            ".scroll": {
-              "overflow-x": "auto",
-              "padding": "0"
-            },
-            ".dataTables_wrapper": {
-              "display": "block",
-              ".search": {
-                "margin-bottom": ".5rem"
-              },
-              ".table": {
-                "overflow-x": "auto"
-              }
-            },
-            "table": {
-              "width": "100% !important",
-              "margin-top": "6px",
-              "border": "1px solid @tbColor",
-              "margin-bottom": "0",
-              "th": {
-                "border-top": "none",
-                "transition": "all .2s",
-                "border-bottom": "none",
-                "&:hover": {
-                  "background": "@tbColor",
-                  "color": "contrast(@tbColor)"
-                }
-              },
-              "td": {
-                "border-top": "1px solid @tbColor"
-              },
-              "&.table": {
-                "& when (@tbBackground)": {
-                  "background": "@tbBgColor"
-                }
-              }
-            },
-            ".dataTables_filter": {
-              "text-align": "right",
-              "margin-bottom": ".5rem",
-              "label": {
-                "display": "inline",
-                "white-space": "normal !important"
-              },
-              "input": {
-                "display": "inline",
-                "width": "auto",
-                "margin-left": ".5rem",
-                "border-radius": "100px",
-                "padding-left": "1rem"
-              }
-            },
-            ".dataTables_info": {
-              "padding-bottom": "1rem",
-              "padding-top": "1rem",
-              "white-space": "normal !important"
-            },
-            "@media (max-width: 992px)": {
-              ".dataTables_filter": {
-                "text-align": "center"
-              }
-            },
-            "@media (max-width: 350px)": {
-              ".dataTables_filter": {
-                "text-align": "center",
-                "input": {
-                  "width": "100% !important",
-                  "margin-left": "0 !important"
-                }
-              }
-            },
-            ".mbr-section-subtitle DIV": {
-              "text-align": "left"
-            }
-          },
-          "_name": "table1",
-          "_customHTML": "<section class=\"section-table\" group=\"Tables\" plugins=\"dataTables\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n  <mbr-parameters>\n  <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n    <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n    <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n    <input type=\"range\" inline title=\"Columns\" name=\"tableColumns\" min=\"1\" max=\"50\" step=\"1\" value=\"3\">\n    <input type=\"range\" inline title=\"Rows\" name=\"tableRows\" min=\"1\" max=\"50\" step=\"1\" value=\"3\">\n    <input type=\"color\" title=\"Table Border Color\" name=\"tbColor\" value=\"#cccccc\">\n    <input type=\"checkbox\" title=\"Table Background\" name=\"tbBackground\">\n    <input type=\"color\" title=\"Table Background Color\" name=\"tbBgColor\" value=\"#ffffff\" condition=\"tbBackground\">\n    <input type=\"checkbox\" title=\"Search\" name=\"isSearch\">\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n      <input type=\"color\" title=\"Background Color\" value=\"#efefef\" selected>\n      <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n    </fieldset>\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">    \n  <!-- End block parameters -->\n  </mbr-parameters>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n  </div>\n  <div class=\"container container-table\">\n      <h2 class=\"mbr-section-title mbr-fonts-style align-center pb-3\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">\n          Table\n      </h2>\n      <h3 class=\"mbr-section-subtitle mbr-fonts-style align-center pb-5 mbr-light\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"><br></h3>\n      <div class=\"table-wrapper\">\n        <div class=\"container\">\n          <div class=\"row search\" mbr-if=\"isSearch\">\n            <div class=\"col-md-6\"></div>\n            <div class=\"col-md-6\">\n                <div class=\"dataTables_filter\">\n                  <label mbr-text class=\"searchInfo mbr-fonts-style\" mbr-theme-style=\"display-7\">Search:</label>\n                  <input class=\"form-control input-sm\" disabled>\n                </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"container scroll\">\n          <table class=\"table\" mbr-class=\"{'isSearch':isSearch}\" cellspacing=\"0\">\n            <thead>\n              <tr class=\"table-heads \" mbr-list mbr-list-grow=\"tableColumns\">\n                  <th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".head-item\">\n                      Variable</th>\n                  \n                  \n                  \n              <th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".head-item\">\n                      Valor</th><th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".head-item\">\n                      Fuente</th></tr>\n            </thead>\n\n            <tbody mbr-list mbr-list-grow=\"tableRows\">\n              <tr mbr-list mbr-list-grow=\"tableColumns\"> \n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">Efecto sobre el salario</td>\n                \n                \n                \n              <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">0.04</td><td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">Ross y Horton, 1998</td></tr>\n              <tr mbr-list mbr-list-grow=\"tableColumns\">\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">Ingreso real per cápita mensual</td>\n                \n                \n                \n              <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">962</td><td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">ENAHO, 2017</td></tr>\n              \n              \n            <tr mbr-list mbr-list-grow=\"tableColumns\">\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">Prob (niño)</td>\n                \n                \n                \n              <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">0.341</td><td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">ENDES, 2017</td></tr></tbody>\n          </table>\n        </div>\n        <div class=\"container table-info-container\">\n          <div class=\"row info\" mbr-if=\"isSearch\">\n            <div class=\"col-md-6\">\n              <div class=\"dataTables_info mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <span mbr-text class=\"infoBefore\" data-app-selector=\".dataTables_info\">Showing</span>\n                <span class=\"inactive infoRows\"></span>\n                <span mbr-text class=\"infoAfter\" data-app-selector=\".dataTables_info\">entries</span>\n                <span mbr-text class=\"infoFilteredBefore\" data-app-selector=\".dataTables_info\">(filtered from</span>\n                <span class=\"inactive infoRows\"></span>\n                <span mbr-text class=\"infoFilteredAfter\" data-app-selector=\".dataTables_info\"> total entries)</span>\n              </div>\n            </div>\n            <div class=\"col-md-6\"></div>\n          </div>\n        </div>\n      </div>\n    </div>\n</section>",
-          "_cid": "r5t72CD4RW",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "table1-4"
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
             },
@@ -785,13 +631,163 @@
             }
           },
           "_name": "table1",
-          "_customHTML": "<section class=\"section-table\" group=\"Tables\" plugins=\"dataTables\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n  <mbr-parameters>\n  <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n    <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n    <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n    <input type=\"range\" inline title=\"Columns\" name=\"tableColumns\" min=\"1\" max=\"50\" step=\"1\" value=\"2\">\n    <input type=\"range\" inline title=\"Rows\" name=\"tableRows\" min=\"1\" max=\"50\" step=\"1\" value=\"1\">\n    <input type=\"color\" title=\"Table Border Color\" name=\"tbColor\" value=\"#cccccc\">\n    <input type=\"checkbox\" title=\"Table Background\" name=\"tbBackground\" checked>\n    <input type=\"color\" title=\"Table Background Color\" name=\"tbBgColor\" value=\"#ffffff\" condition=\"tbBackground\">\n    <input type=\"checkbox\" title=\"Search\" name=\"isSearch\">\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n      <input type=\"color\" title=\"Background Color\" value=\"#efefef\" selected>\n      <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n    </fieldset>\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">    \n  <!-- End block parameters -->\n  </mbr-parameters>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n  </div>\n  <div class=\"container container-table\">\n      <h2 class=\"mbr-section-title mbr-fonts-style align-center pb-3\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">\n          Table\n      </h2>\n      <h3 class=\"mbr-section-subtitle mbr-fonts-style align-center pb-5 mbr-light\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n            Click blue \"Gear\" icon in the top right corner to hide/show search and info, change the the table background and other parameters.  In browser click on the table head to sort the table, use search to filter the table.     \n      </h3>\n      <div class=\"table-wrapper\">\n        <div class=\"container\">\n          <div class=\"row search\" mbr-if=\"isSearch\">\n            <div class=\"col-md-6\"></div>\n            <div class=\"col-md-6\">\n                <div class=\"dataTables_filter\">\n                  <label mbr-text class=\"searchInfo mbr-fonts-style\" mbr-theme-style=\"display-7\">Search:</label>\n                  <input class=\"form-control input-sm\" disabled>\n                </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"container scroll\">\n          <table class=\"table\" mbr-class=\"{'isSearch':isSearch}\" cellspacing=\"0\">\n            <thead>\n              <tr class=\"table-heads \" mbr-list mbr-list-grow=\"tableColumns\">\n                  <th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".head-item\">\n                      Costo per cápita mensual por pérdida cognitiva</th>\n                  \n                  \n                  \n              <th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".head-item\">Costo per cápita por pérdida cognitiva</th></tr>\n            </thead>\n\n            <tbody mbr-list mbr-list-grow=\"tableRows\">\n              <tr mbr-list mbr-list-grow=\"tableColumns\"> \n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">≈ 13.12 soles</td>\n                \n                \n                \n              <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"><b>157.46 soles</b></td></tr>\n              \n              \n              \n            </tbody>\n          </table>\n        </div>\n        <div class=\"container table-info-container\">\n          <div class=\"row info\" mbr-if=\"isSearch\">\n            <div class=\"col-md-6\">\n              <div class=\"dataTables_info mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <span mbr-text class=\"infoBefore\" data-app-selector=\".dataTables_info\">Showing</span>\n                <span class=\"inactive infoRows\"></span>\n                <span mbr-text class=\"infoAfter\" data-app-selector=\".dataTables_info\">entries</span>\n                <span mbr-text class=\"infoFilteredBefore\" data-app-selector=\".dataTables_info\">(filtered from</span>\n                <span class=\"inactive infoRows\"></span>\n                <span mbr-text class=\"infoFilteredAfter\" data-app-selector=\".dataTables_info\"> total entries)</span>\n              </div>\n            </div>\n            <div class=\"col-md-6\"></div>\n          </div>\n        </div>\n      </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"section-table\" group=\"Tables\" plugins=\"dataTables\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n  <mbr-parameters>\n  <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n    <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n    <input type=\"range\" inline title=\"Columns\" name=\"tableColumns\" min=\"1\" max=\"50\" step=\"1\" value=\"2\">\n    <input type=\"range\" inline title=\"Rows\" name=\"tableRows\" min=\"1\" max=\"50\" step=\"1\" value=\"1\">\n    <input type=\"color\" title=\"Table Border Color\" name=\"tbColor\" value=\"#cccccc\">\n    <input type=\"checkbox\" title=\"Table Background\" name=\"tbBackground\" checked>\n    <input type=\"color\" title=\"Table Background Color\" name=\"tbBgColor\" value=\"#ffffff\" condition=\"tbBackground\">\n    <input type=\"checkbox\" title=\"Search\" name=\"isSearch\">\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n      <input type=\"color\" title=\"Background Color\" value=\"#efefef\" selected>\n      <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n    </fieldset>\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">    \n  <!-- End block parameters -->\n  </mbr-parameters>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n  </div>\n  <div class=\"container container-table\">\n      <h2 class=\"mbr-section-title mbr-fonts-style align-center pb-3\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">Costo por pérdida cognitiva</h2>\n      <h3 class=\"mbr-section-subtitle mbr-fonts-style align-center pb-5 mbr-light\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Es la pérdida en el PBI por la pérdida de producción actual de los adultos que padecieron anemia cuando niños</h3>\n      <div class=\"table-wrapper\">\n        <div class=\"container\">\n          <div class=\"row search\" mbr-if=\"isSearch\">\n            <div class=\"col-md-6\"></div>\n            <div class=\"col-md-6\">\n                <div class=\"dataTables_filter\">\n                  <label mbr-text class=\"searchInfo mbr-fonts-style\" mbr-theme-style=\"display-7\">Search:</label>\n                  <input class=\"form-control input-sm\" disabled>\n                </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"container scroll\">\n          <table class=\"table\" mbr-class=\"{'isSearch':isSearch}\" cellspacing=\"0\">\n            <thead>\n              <tr class=\"table-heads \" mbr-list mbr-list-grow=\"tableColumns\">\n                  <th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".head-item\">\n                      Costo per cápita mensual por pérdida cognitiva</th>\n                  \n                  \n                  \n              <th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".head-item\">Costo per cápita por pérdida cognitiva</th></tr>\n            </thead>\n\n            <tbody mbr-list mbr-list-grow=\"tableRows\">\n              <tr mbr-list mbr-list-grow=\"tableColumns\"> \n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\">≈ 13.12 soles</td>\n                \n                \n                \n              <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".body-item\"><b>157.46 soles</b></td></tr>\n              \n              \n              \n            </tbody>\n          </table>\n        </div>\n        <div class=\"container table-info-container\">\n          <div class=\"row info\" mbr-if=\"isSearch\">\n            <div class=\"col-md-6\">\n              <div class=\"dataTables_info mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <span mbr-text class=\"infoBefore\" data-app-selector=\".dataTables_info\">Showing</span>\n                <span class=\"inactive infoRows\"></span>\n                <span mbr-text class=\"infoAfter\" data-app-selector=\".dataTables_info\">entries</span>\n                <span mbr-text class=\"infoFilteredBefore\" data-app-selector=\".dataTables_info\">(filtered from</span>\n                <span class=\"inactive infoRows\"></span>\n                <span mbr-text class=\"infoFilteredAfter\" data-app-selector=\".dataTables_info\"> total entries)</span>\n              </div>\n            </div>\n            <div class=\"col-md-6\"></div>\n          </div>\n        </div>\n      </div>\n    </div>\n</section>",
           "_cid": "r5tkXtVRGn",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
           "_anchor": "table1-9"
+        },
+        {
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value",
+              "& when (@gradientBg)": {
+                "background": "linear-gradient(45deg, @bg-value, @color2)"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@reverseContent)": {
+              ".media-container-row": {
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".mbr-figure": {
+              "@media (min-width: 992px)": {
+                "padding-right": "4rem",
+                "& when (@reverseContent)": {
+                  "padding-right": "0",
+                  "padding-left": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                "padding-bottom": "3rem"
+              }
+            },
+            ".mbr-text": {
+              "@media (max-width: 767px)": {
+                "text-align": "center"
+              }
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#232323"
+            }
+          },
+          "_name": "header3",
+          "_customHTML": "<section class=\"header3\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n    \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"180\">\n        <input type=\"checkbox\" title=\"Media On Left/Right\" name=\"reverseContent\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#000000\" condition=\"gradientBg\">\n        \n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/per-cog-1-1014x760.jpg\" alt=\"Mobirise\" title>\n            </div>\n\n            <div class=\"media-content\">\n                <h1 class=\"mbr-section-title mbr-white pb-3 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-1\">\n                    Intro with Image\n                </h1>\n                <h3 class=\"mbr-section-subtitle align-left mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\">\n                    Beautiful mobile websites\n                </h3>\n                <div class=\"mbr-section-text mbr-white pb-3 \">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-4\"><br>• <i>Efecto sobre el salario</i>: efecto de la deficiencia de hierro sobre el salario, del cual Ross y Horton (1998) indican que reduce en un 4% el rendimiento salarial. \n<br>\n<br>•<i> Ingresocap</i>: es la suma de salarios de la economía dividida entre la población total \n<br>\n<br>• <i>Prob (niño)</i>: prevalencia de anemia en niños menores de 5 años</p>\n                </div>\n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-md btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    <a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_cid": "r5tpASqF6K",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header3-a"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#767676",
+              "text-align": "left"
+            },
+            ".container-table": {
+              "margin": "0 auto"
+            },
+            ".scroll": {
+              "overflow-x": "auto",
+              "padding": "0"
+            },
+            ".dataTables_wrapper": {
+              "display": "block",
+              ".search": {
+                "margin-bottom": ".5rem"
+              },
+              ".table": {
+                "overflow-x": "auto"
+              }
+            },
+            "table": {
+              "width": "100% !important",
+              "margin-top": "6px",
+              "border": "1px solid @tbColor",
+              "margin-bottom": "0",
+              "th": {
+                "border-top": "none",
+                "transition": "all .2s",
+                "border-bottom": "none",
+                "&:hover": {
+                  "background": "@tbColor",
+                  "color": "contrast(@tbColor)"
+                }
+              },
+              "td": {
+                "border-top": "1px solid @tbColor"
+              },
+              "&.table": {
+                "& when (@tbBackground)": {
+                  "background": "@tbBgColor"
+                }
+              }
+            },
+            ".dataTables_filter": {
+              "text-align": "right",
+              "margin-bottom": ".5rem",
+              "label": {
+                "display": "inline",
+                "white-space": "normal !important"
+              },
+              "input": {
+                "display": "inline",
+                "width": "auto",
+                "margin-left": ".5rem",
+                "border-radius": "100px",
+                "padding-left": "1rem"
+              }
+            },
+            ".dataTables_info": {
+              "padding-bottom": "1rem",
+              "padding-top": "1rem",
+              "white-space": "normal !important"
+            },
+            "@media (max-width: 992px)": {
+              ".dataTables_filter": {
+                "text-align": "center"
+              }
+            },
+            "@media (max-width: 350px)": {
+              ".dataTables_filter": {
+                "text-align": "center",
+                "input": {
+                  "width": "100% !important",
+                  "margin-left": "0 !important"
+                }
+              }
+            },
+            ".mbr-section-subtitle DIV": {
+              "text-align": "left"
+            }
+          },
+          "_name": "table1",
+          "_customHTML": "<section class=\"section-table\" group=\"Tables\" plugins=\"dataTables\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n  <mbr-parameters>\n  <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n    <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n    <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n    <input type=\"range\" inline title=\"Columns\" name=\"tableColumns\" min=\"1\" max=\"50\" step=\"1\" value=\"3\">\n    <input type=\"range\" inline title=\"Rows\" name=\"tableRows\" min=\"1\" max=\"50\" step=\"1\" value=\"3\">\n    <input type=\"color\" title=\"Table Border Color\" name=\"tbColor\" value=\"#cccccc\">\n    <input type=\"checkbox\" title=\"Table Background\" name=\"tbBackground\">\n    <input type=\"color\" title=\"Table Background Color\" name=\"tbBgColor\" value=\"#ffffff\" condition=\"tbBackground\">\n    <input type=\"checkbox\" title=\"Search\" name=\"isSearch\">\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n      <input type=\"color\" title=\"Background Color\" value=\"#efefef\" selected>\n      <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n    </fieldset>\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">    \n  <!-- End block parameters -->\n  </mbr-parameters>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n  </div>\n  <div class=\"container container-table\">\n      <h2 class=\"mbr-section-title mbr-fonts-style align-center pb-3\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">\n          Table\n      </h2>\n      <h3 class=\"mbr-section-subtitle mbr-fonts-style align-center pb-5 mbr-light\" mbr-theme-style=\"display-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"><br></h3>\n      <div class=\"table-wrapper\">\n        <div class=\"container\">\n          <div class=\"row search\" mbr-if=\"isSearch\">\n            <div class=\"col-md-6\"></div>\n            <div class=\"col-md-6\">\n                <div class=\"dataTables_filter\">\n                  <label mbr-text class=\"searchInfo mbr-fonts-style\" mbr-theme-style=\"display-7\">Search:</label>\n                  <input class=\"form-control input-sm\" disabled>\n                </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"container scroll\">\n          <table class=\"table\" mbr-class=\"{'isSearch':isSearch}\" cellspacing=\"0\">\n            <thead>\n              <tr class=\"table-heads \" mbr-list mbr-list-grow=\"tableColumns\">\n                  <th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".head-item\"><b>\n                      Variable</b></th>\n                  \n                  \n                  \n              <th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".head-item\"><b>\n                      Valor</b></th><th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".head-item\"><b>\n                      Fuente</b></th></tr>\n            </thead>\n\n            <tbody mbr-list mbr-list-grow=\"tableRows\">\n              <tr mbr-list mbr-list-grow=\"tableColumns\"> \n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".body-item\">Efecto sobre el salario</td>\n                \n                \n                \n              <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".body-item\">0.04</td><td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".body-item\">Ross y Horton, 1998</td></tr>\n              <tr mbr-list mbr-list-grow=\"tableColumns\">\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".body-item\">Ingreso real per cápita mensual</td>\n                \n                \n                \n              <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".body-item\">962</td><td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".body-item\">ENAHO, 2017</td></tr>\n              \n              \n            <tr mbr-list mbr-list-grow=\"tableColumns\">\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".body-item\">Prob (niño)</td>\n                \n                \n                \n              <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".body-item\">0.341</td><td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".body-item\">ENDES, 2017</td></tr></tbody>\n          </table>\n        </div>\n        <div class=\"container table-info-container\">\n          <div class=\"row info\" mbr-if=\"isSearch\">\n            <div class=\"col-md-6\">\n              <div class=\"dataTables_info mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <span mbr-text class=\"infoBefore\" data-app-selector=\".dataTables_info\">Showing</span>\n                <span class=\"inactive infoRows\"></span>\n                <span mbr-text class=\"infoAfter\" data-app-selector=\".dataTables_info\">entries</span>\n                <span mbr-text class=\"infoFilteredBefore\" data-app-selector=\".dataTables_info\">(filtered from</span>\n                <span class=\"inactive infoRows\"></span>\n                <span mbr-text class=\"infoFilteredAfter\" data-app-selector=\".dataTables_info\"> total entries)</span>\n              </div>\n            </div>\n            <div class=\"col-md-6\"></div>\n          </div>\n        </div>\n      </div>\n    </div>\n</section>",
+          "_cid": "r5t72CD4RW",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "table1-4"
         }
       ]
     }
