@@ -2705,7 +2705,7 @@ body {
 }
 .cid-r5vL93SLzM {
   padding-top: 0px;
-  padding-bottom: 45px;
+  padding-bottom: 0px;
   background-color: #efefef;
 }
 .cid-r5vL93SLzM .mbr-section-subtitle {
@@ -2781,6 +2781,86 @@ body {
   }
 }
 .cid-r5vL93SLzM .mbr-section-subtitle DIV {
+  text-align: left;
+}
+.cid-r5vR4EDcJv {
+  padding-top: 0px;
+  padding-bottom: 45px;
+  background-color: #efefef;
+}
+.cid-r5vR4EDcJv .mbr-section-subtitle {
+  color: #767676;
+  text-align: left;
+}
+.cid-r5vR4EDcJv .container-table {
+  margin: 0 auto;
+}
+.cid-r5vR4EDcJv .scroll {
+  overflow-x: auto;
+  padding: 0;
+}
+.cid-r5vR4EDcJv .dataTables_wrapper {
+  display: block;
+}
+.cid-r5vR4EDcJv .dataTables_wrapper .search {
+  margin-bottom: .5rem;
+}
+.cid-r5vR4EDcJv .dataTables_wrapper .table {
+  overflow-x: auto;
+}
+.cid-r5vR4EDcJv table {
+  width: 100% !important;
+  margin-top: 6px;
+  border: 1px solid #cccccc;
+  margin-bottom: 0;
+}
+.cid-r5vR4EDcJv table th {
+  border-top: none;
+  transition: all .2s;
+  border-bottom: none;
+}
+.cid-r5vR4EDcJv table th:hover {
+  background: #cccccc;
+  color: #000000;
+}
+.cid-r5vR4EDcJv table td {
+  border-top: 1px solid #cccccc;
+}
+.cid-r5vR4EDcJv .dataTables_filter {
+  text-align: right;
+  margin-bottom: .5rem;
+}
+.cid-r5vR4EDcJv .dataTables_filter label {
+  display: inline;
+  white-space: normal !important;
+}
+.cid-r5vR4EDcJv .dataTables_filter input {
+  display: inline;
+  width: auto;
+  margin-left: .5rem;
+  border-radius: 100px;
+  padding-left: 1rem;
+}
+.cid-r5vR4EDcJv .dataTables_info {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  white-space: normal !important;
+}
+@media (max-width: 992px) {
+  .cid-r5vR4EDcJv .dataTables_filter {
+    text-align: center;
+  }
+}
+@media (max-width: 350px) {
+  .cid-r5vR4EDcJv .dataTables_filter {
+    text-align: center;
+  }
+  .cid-r5vR4EDcJv .dataTables_filter input {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+}
+.cid-r5vR4EDcJv .mbr-section-subtitle DIV {
   text-align: left;
 }
 .cid-r5vNOWx7Eq {
