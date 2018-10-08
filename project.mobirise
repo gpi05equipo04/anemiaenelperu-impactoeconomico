@@ -48,7 +48,7 @@
         "file": "@PROJECT_PATH@/fonts/MYRIADPRO-REGULAR/font.TTF"
       }
     ],
-    "uniqCompNum": 43,
+    "uniqCompNum": 44,
     "versionPublish": "4.8.2",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -635,6 +635,33 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "r5w4ZHja5P",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text P": {
+              "color": "#232323",
+              "text-align": "center"
+            },
+            ".mbr-text": {
+              "color": "#232323"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#e25b44\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p>Con la finalidad de definir la repercusión económica que la anemia genera en el país, se ha tomado como base el estudio realizado por Lorena Alcázar (2012). Por tanto, se han considerado los ajustes y variables considerados por la autora. Ya que el estudio fue realizado hace 6 años, la finalidad de esta sección es estimar el costo actual de la anemia con índices más recientes solo a nivel nacional. Debe tenerse en cuenta que p<span style=\"font-size: 1rem;\">ara el cálculo del 2017, se tomo en consideración el ingreso mensual per cápita, mientras que Alcazar (2012) considera el salario per cápita; así como las variaciones en el PBI, PBI per cápita y el gasto público por alumno.</span></p><p></p><p>\n</p><p></p></div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-17",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "r5RgmW6KBG",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -2678,11 +2705,11 @@
           "_name": "content1",
           "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#e25b44\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p>\n                <b> Referencias:</b></p><p>Alcázar, L. (2012). <i>Impacto Económico de la Anemia.</i> Lima, Perú: GRADE; Acción contra el hambre.\n</p><p>Banco Central de la Reserva del Perú. (2017). Memoria 2017. Recuperado de http://www.bcrp.gob.pe/publicaciones/memoria-anual/memoria-2017.html\n</p><p>Centro Nacional de Planeamiento Estratégico. (2017). <i>Información sobre nacidos vivos y ejecución financiera mensual per cápita: zonas y departamentos del Perú</i>. Lima, Perú.\n</p><p>Gaviria, A., y Hoyos, A. (2011). Anemia and child education: The case of Colombia. <i>Revista Desarrollo y Sociedad</i>, (68), 47-77.\n</p><p>Instituto Nacional de Estadística e Informática. (2018). Capítulo 1: Evolución del gasto e ingreso. En <i>Evolución de la pobreza monetaria 2007 - 2017: Informe técnico</i>. Recuperado de https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1533/index.html\n</p><p>Instituto Nacional de Estadística e Informática. (2018). Perú: <i>Encuesta Demográfica y de Salud Familiar 2017</i>. Lima, Perú.\n</p><p>Ministerio de Educación: ESCALE. (2017). Serie desde 2016 - ESCALE - Unidad de Estadí­stica Educativa. Recuperado de http://escale.minedu.gob.pe/ueetendencias2016\n</p><p>Moncada, G., Llanos, F., y Mayca, J. (2009). Costo directo de cesáreas y reembolso del Seguro Integral de Salud: El caso del Hospital de Apoyo Pomabamba, Ancash, Perú.<i> Revista Medica Herediana, 20</i>(1), 4-10.\n</p><p>Ross, J., Horton, S., y Micronutrient Initiative. (1998).<i> Economic consequences of iron deficiency</i>. Micronutrient Initiative, IDRC, Ottawa, ON, CA.\n</p><p>Yamada, G., y Castro, J. (2010). Educación superior e ingresos laborales: Estimaciones paramétricas y no paramétricas de la rentabilidad por niveles y carreras en el Perú.\n</p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "r5Re9ULY96",
+          "_anchor": "content1-16",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-16"
+          "_params": {}
         }
       ]
     }
